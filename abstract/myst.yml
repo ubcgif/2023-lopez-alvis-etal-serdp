@@ -1,35 +1,42 @@
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-CONFERENCE
-  # title: TITLE
-  # description: DESCRIPTION
+  id: ubcgif-2023-alvis-serdp
+  title: Using convolutional neural networks to classify UXO with multicomponent electromagnetic induction data
+  description: Talk presented at 2023 SERDP-ESTCP-OEC symposium
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-    # - name: Douglas W. Oldenburg
-    #   affiliation: ubc
-    #   email: doug@eos.ubc.ca
-    #   orcid: 0000-0002-4327-2124
+    - name: Jorge Lopez-Alvis
+      email:  jlalvis@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0001-8626-117X
+      affiliation:
+        id: ubc
+        name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
+    - name: Douglas W. Oldenburg
+      affiliation: ubc
+      email: doug@eos.ubc.ca
+      orcid: 0000-0002-4327-2124
+    - name: Stephen Billings
+      email: stephen.billings@skyresearch.com
+      # orcid: OCID
+      affiliation: ubc
+    - name: Lin-Ping Song
+      email: lpsong@eoas.ubc.ca
+      # orcid: ORCID
+      affiliation: ubc
   # banner: banner.png
   thumbnail: thumbnail.png
   # subject: Electromagnetics
   venue:
-    # title: CONFERENCE NAME
-    # url: CONFERENCE URL
+    title: SERDP
+    url: https://serdp-estcp.mil/events/details/04d444f1-aa19-4e66-bb5c-5163964cc4dd/symposium-2023
   # license: CC-BY-4.0
   # open_access: true
   # doi: DOI
-  # date: DATE OF PRESENTATION
+  date: November 28, 2023
   abbreviations:
     # DC: direct current
     # EM: electromagnetics
@@ -44,10 +51,10 @@ project:
 site:
   template: article-theme
   actions:
-    # - title: pdf
-    #   url: ARTICLE-NAME.pdf
-    #   static: true
-    # - title: slides
-    #   url: presentation/SLIDES-NAME.pdf
-    #   static: true
+    - title: poster
+      url: abstract/presentation/poster_SERDP2023.pdf
+      static: true
+    - title: slides
+      url: abstract/presentation/2023_alvis_serdp.pdf
+      static: true
   # domains: []
