@@ -51,10 +51,10 @@ project:
 site:
   template: article-theme
   actions:
-    - title: poster
-      url: abstract/presentation/poster_SERDP2023.pdf
+    - title: Poster
+      url: presentation/poster_SERDP2023.pdf
       static: true
-    - title: slides
-      url: abstract/presentation/2023_alvis_serdp.pdf
+    - title: Slides
+      url: presentation/2023_alvis_serdp.pdf
       static: true
   # domains: []
