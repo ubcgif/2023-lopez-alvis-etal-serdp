@@ -1,6 +1,6 @@
 version: 1
 project:
-  id: ubcgif-2023-alvis-serdp
+  id: ubcgif-2023-lopez-alvis-serdp
   title: Using convolutional neural networks to classify UXO with multicomponent electromagnetic induction data
   description: Talk presented at 2023 SERDP-ESTCP-OEC symposium
   authors:
