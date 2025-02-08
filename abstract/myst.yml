@@ -54,7 +54,4 @@ site:
     - title: Poster
       url: presentation/poster_SERDP2023.pdf
       static: true
-    - title: Slides
-      url: presentation/2023_alvis_serdp.pdf
-      static: true
   # domains: []
